@@ -298,7 +298,6 @@ h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.35; }
   font-weight: 700;
   line-height: 1.45;
 }
-.paper-links .featured-badge { border-color: #d8c6a9; color: #805111; background: #fff8ea; }
 
 .activity-list { margin: 0; padding: 0; list-style: none; }
 .activity-list li { display: grid; grid-template-columns: 72px 1fr; gap: 18px; padding: 9px 0; }

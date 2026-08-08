@@ -36,14 +36,13 @@
     if (paper.doi) links.push(`<a href="https://doi.org/${escapeHtml(paper.doi)}" target="_blank" rel="noreferrer">DOI</a>`);
     if (paper.arxiv) links.push(`<a href="https://arxiv.org/abs/${escapeHtml(paper.arxiv)}" target="_blank" rel="noreferrer">arXiv</a>`);
     if (paper.localPdf) links.push(`<a href="${escapeHtml(paper.localPdf)}">PDF</a>`);
-    if (paper.featured) links.push('<span class="featured-badge">Highlight</span>');
     return links.join("");
   }
 
   function render(filter) {
     const filtered = publications.filter((paper) => {
       if (filter === "all") return true;
-      if (filter === "featured") return Boolean(paper.featured);
+      if (filter === "first-author") return paper.authors[0] === SELF;
       return paper.type === filter;
     });
 
