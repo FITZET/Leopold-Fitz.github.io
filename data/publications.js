@@ -2,6 +2,18 @@ window.publications = [
   {
     year: 2026,
     month: 8,
+    type: "conference",
+    title: "GALSNP: A GALS Reconfigurable Neuromorphic Processor Enabling Manifold-Based Hybrid ANN-SNN and Gradient-Free On-Chip Adaptation",
+    authors: ["Zixuan Shen", "Xiao Liu", "Ziang Duan", "Junjie Fang", "Jiahao Liu", "Kwen-Siong Chong", "Peng Zhou", "Bah Hwee Gwee", "Jun Zhou", "Chao Wang"],
+    venue: "IEEE Asian Solid-State Circuits Conference (A-SSCC), 2026 (accepted)",
+    shortVenue: "A-SSCC",
+    award: "Highlighted Paper",
+    localPdf: "publication/2026-asscc-galsnp.pdf",
+    summary: "A 40-nm GALS neuromorphic processor combining manifold-based hybrid ANN-SNN inference with gradient-free on-chip adaptation for robust and energy-efficient edge intelligence."
+  },
+  {
+    year: 2026,
+    month: 8,
     type: "preprint",
     title: "Unified Lookup-Table Inference with Signed-Digit K/V Caches for Ternary LLMs",
     authors: ["Ziang Duan", "Jiajun Wu", "Zetian Chen", "Hao Song", "Yanwen Deng", "Zixuan Shen", "Nuobei Xie", "Simon Wu", "Bolun Wang", "Pengpeng Zhou", "Chao Wang"],
@@ -184,6 +196,8 @@ window.publications = [
     venue: "IEEE International Conference on IC Design and Technology (ICICDT), 2024, pp. 1–4",
     shortVenue: "ICICDT",
     doi: "10.1109/ICICDT63592.2024.10717694",
+    award: "Best Paper Award",
+    localPdf: "publication/2024-icicdt-crl-nmc.pdf",
     summary: "A dual-voltage-domain 4-Kb 7T-SRAM near-memory macro using charge-recovery logic, reporting 3.71 TOPS/W in simulation."
   },
   {

@@ -28,6 +28,7 @@
   function paperUrl(paper) {
     if (paper.url) return paper.url;
     if (paper.doi) return `https://doi.org/${paper.doi}`;
+    if (paper.localPdf) return paper.localPdf;
     return "#";
   }
 
@@ -65,6 +66,7 @@
             <a class="publication-title" href="${escapeHtml(paperUrl(paper))}" target="_blank" rel="noreferrer">${escapeHtml(paper.title)}</a>
             <p class="authors">${renderAuthors(paper.authors)}</p>
             <p class="venue-line">${escapeHtml(paper.venue)}</p>
+            ${paper.award ? `<p class="paper-award">${escapeHtml(paper.award)}</p>` : ""}
             ${paper.summary ? `<p class="paper-summary">${escapeHtml(paper.summary)}</p>` : ""}
             <div class="paper-links">${paperLinks(paper)}</div>
           </div>
