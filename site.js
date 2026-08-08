@@ -58,7 +58,8 @@
 
       chunks.push(`
         <article class="publication-card">
-          <div class="paper-thumb" aria-hidden="true">
+          <div class="paper-thumb${paper.image ? " has-image" : ""}" aria-hidden="true">
+            ${paper.image ? `<img src="${escapeHtml(paper.image)}" alt="" loading="lazy">` : ""}
             <span class="thumb-year">${paper.year}</span>
             <span class="thumb-venue">${escapeHtml(paper.shortVenue || "Publication")}</span>
           </div>

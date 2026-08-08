@@ -7,6 +7,7 @@ window.publications = [
     authors: ["Zixuan Shen", "Xiao Liu", "Ziang Duan", "Junjie Fang", "Jiahao Liu", "Kwen-Siong Chong", "Peng Zhou", "Bah Hwee Gwee", "Jun Zhou", "Chao Wang"],
     venue: "IEEE Asian Solid-State Circuits Conference (A-SSCC), 2026 (accepted)",
     shortVenue: "A-SSCC",
+    image: "images/publications/asscc-2026-galsnp.webp",
     award: "Highlighted Paper",
     localPdf: "publication/2026-asscc-galsnp.pdf",
     summary: "A 40-nm GALS neuromorphic processor combining manifold-based hybrid ANN-SNN inference with gradient-free on-chip adaptation for robust and energy-efficient edge intelligence."
@@ -51,6 +52,7 @@ window.publications = [
     authors: ["Lingyun Hu", "Yulong Tan", "Yuansheng Zhao", "Zixuan Shen", "Yanqing Wu", "Chao Wang"],
     venue: "IEEE Electron Devices Technology & Manufacturing Conference (EDTM), 2026, pp. 1–3",
     shortVenue: "EDTM",
+    image: "images/publications/edtm-2026-rowhammer.webp",
     doi: "10.1109/EDTM65772.2026.11496754"
   },
   {
@@ -61,6 +63,7 @@ window.publications = [
     authors: ["Zixuan Shen", "Jian Xiao", "Boyi Dong", "Zhengzhe Wei", "Yulong Tan", "Zhigang Wu", "Yuanjin Zheng", "Chao Wang"],
     venue: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2026, pp. 1–10",
     shortVenue: "TVLSI",
+    image: "images/publications/tvlsi-2026-mt-ren.webp",
     doi: "10.1109/TVLSI.2026.3718298",
     summary: "An end-to-end reconfigurable GVD-NeuroSLAM accelerator that fuses metric and topological representations for autonomous microrobots."
   },
@@ -82,6 +85,7 @@ window.publications = [
     authors: ["Bochang Wang", "Zheli Liu", "Zixuan Shen", "Xianqiao Liao", "Ming Tang", "Chao Wang"],
     venue: "Asia Communications and Photonics Conference (ACP), 2025, pp. 1–5",
     shortVenue: "ACP",
+    image: "images/publications/acp-2025-dispersion.webp",
     doi: "10.1109/ACP66871.2025.11350701"
   },
   {
@@ -92,6 +96,7 @@ window.publications = [
     authors: ["Wenming Zhu", "Yuansheng Zhao", "Zixuan Shen", "Lei Huang", "Yulong Tan", "Shunmin Jiang", "Chunjiang Tu", "Sijun Du", "Chao Wang"],
     venue: "IEEE Asian Solid-State Circuits Conference (A-SSCC), 2025, pp. 271–273",
     shortVenue: "A-SSCC",
+    image: "images/publications/asscc-2025-charge-mac.webp",
     doi: "10.1109/A-SSCC67472.2025.11349614"
   },
   {
@@ -102,6 +107,7 @@ window.publications = [
     authors: ["Bingqiang Liu", "Jipeng Wang", "Yequan Zhao", "Minjie Bao", "Zhendong Fan", "Dingcheng Jiang", "Zixuan Shen", "Yulong Tan", "Zaisheng He", "Dengke Xu", "Ke Wang", "Chao Wang", "Lining Sun"],
     venue: "IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 72, no. 11, 2025, pp. 6724–6737",
     shortVenue: "TCAS-I",
+    image: "images/publications/tcasi-2025-ekf-slam.webp",
     doi: "10.1109/TCSI.2025.3587912"
   },
   {
@@ -112,6 +118,7 @@ window.publications = [
     authors: ["Yulong Tan", "Zixuan Shen", "Yuansheng Zhao", "Ziang Duan", "Jian Xiao", "Ming Tang", "Chao Wang"],
     venue: "IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2025, pp. 234–235",
     shortVenue: "ICTA",
+    image: "images/publications/icta-2025-point-cloud.webp",
     doi: "10.1109/ICTA68203.2025.11329544"
   },
   {
@@ -122,6 +129,7 @@ window.publications = [
     authors: ["Zixuan Shen", "Ziang Duan", "Jian Xiao", "Yulong Tan", "Bochang Wang", "Jiang Tang", "Chao Wang"],
     venue: "IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2025, pp. 304–305",
     shortVenue: "ICTA",
+    image: "images/publications/icta-2025-fusion.webp",
     doi: "10.1109/ICTA68203.2025.11329922",
     summary: "A reconfigurable LiDAR–vision fusion accelerator that improves YOLOv11 accuracy in challenging scenes while reducing memory access and increasing FPGA energy efficiency."
   },
@@ -143,6 +151,7 @@ window.publications = [
     authors: ["Zixuan Shen", "Jian Xiao", "Heng Ping", "Yuhao Mei", "Bowen Shi", "Zhengzhe Wei", "Boyi Dong", "Xinglong Ji", "Yuanjin Zheng", "Chao Wang"],
     venue: "IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2025, pp. 1–5",
     shortVenue: "AICAS",
+    image: "images/publications/aicas-2025-ren.webp",
     doi: "10.1109/AICAS64808.2025.11173094",
     summary: "A reconfigurable end-to-end NeuroSLAM accelerator for micro robots, reporting 1.04 TOPS/W, about 85% average PE utilization, and 90 fps at VGA resolution."
   },
@@ -154,6 +163,7 @@ window.publications = [
     authors: ["Jiatong Guo", "Jinxiang Gao", "Zixuan Shen", "Jipeng Wang", "Zhuo Cheng", "Jingru Jiang", "Wenjue Chen", "Chao Wang"],
     venue: "IEEE Region 10 Conference (TENCON), 2024, pp. 374–377",
     shortVenue: "TENCON",
+    image: "images/publications/tencon-2024-dual-mode-neuron.webp",
     doi: "10.1109/TENCON61640.2024.10902968"
   },
   {
@@ -174,6 +184,7 @@ window.publications = [
     authors: ["Jiahao Liu", "Xiao Liu", "Xu Wang", "Ziyi Xie", "Chaozheng Guo", "Zirui Zhong", "Jiajing Fan", "Hui Qiu", "Yiming Xu", "Huajing Qin", "Yu Long", "Yuhong Zhou", "Zixuan Shen", "Liang Zhou", "Liang Chang", "Shanshan Liu", "Shuisheng Lin", "Chao Wang", "Jun Zhou"],
     venue: "IEEE Journal of Solid-State Circuits, vol. 59, no. 11, 2024, pp. 3549–3565",
     shortVenue: "JSSC",
+    image: "images/publications/jssc-2024-seizure.webp",
     doi: "10.1109/JSSC.2024.3446244",
     summary: "A 55-nm zero-shot-retraining seizure processor achieving 100% event-based sensitivity, 94% specificity, and 0.07 μJ per classification."
   },
@@ -185,6 +196,7 @@ window.publications = [
     authors: ["Keyi Yang", "Bingqiang Liu", "Zirui Huang", "Heng Ping", "Ziyuan Wen", "Zixuan Shen", "Chengjun Huang", "Chao Wang"],
     venue: "IEEE Biomedical Circuits and Systems Conference (BioCAS), 2024, pp. 1–5",
     shortVenue: "BioCAS",
+    image: "images/publications/biocas-2024-lung-sound.webp",
     doi: "10.1109/BioCAS61083.2024.10798166"
   },
   {
@@ -195,6 +207,7 @@ window.publications = [
     authors: ["Zixuan Shen", "Lei Huang", "Yuansheng Zhao", "Keyi Yang", "Jipeng Wang", "Bingqiang Liu", "Boyi Dong", "Zhengzhe Wei", "Yuanjin Zheng", "Chao Wang"],
     venue: "IEEE International Conference on IC Design and Technology (ICICDT), 2024, pp. 1–4",
     shortVenue: "ICICDT",
+    image: "images/publications/icicdt-2024-crl-nmc.webp",
     doi: "10.1109/ICICDT63592.2024.10717694",
     award: "Best Paper Award",
     localPdf: "publication/2024-icicdt-crl-nmc.pdf",
@@ -208,6 +221,7 @@ window.publications = [
     authors: ["Zhenhui Duan", "Bingqiang Liu", "Zehua Yin", "Jipeng Wang", "Zixuan Shen", "Xupeng Zhang", "Zaisheng He", "Chao Wang"],
     venue: "IEEE International Symposium on Circuits and Systems (ISCAS), 2024, p. 1",
     shortVenue: "ISCAS",
+    image: "images/publications/iscas-2024-sift-demo.webp",
     doi: "10.1109/ISCAS58744.2024.10558161"
   },
   {
@@ -218,6 +232,7 @@ window.publications = [
     authors: ["Dingcheng Jiang", "Bingqiang Liu", "Jipeng Wang", "Ao Hu", "Yequan Zhao", "Minjie Bao", "Zhendong Fan", "Zixuan Shen", "Ke Wang", "Chao Wang"],
     venue: "IEEE International Symposium on Circuits and Systems (ISCAS), 2024, p. 1",
     shortVenue: "ISCAS",
+    image: "images/publications/iscas-2024-ekf-demo.webp",
     doi: "10.1109/ISCAS58744.2024.10558139"
   },
   {
@@ -228,6 +243,7 @@ window.publications = [
     authors: ["Jiahao Liu", "Xiao Liu", "Xu Wang", "Ziyi Xie", "Zirui Zhong", "Jiajing Fan", "Hui Qiu", "Yiming Xu", "Huajing Qin", "Yu Long", "Yuhong Zhou", "Zixuan Shen", "Liang Zhou", "Liang Chang", "Shanshan Liu", "Shuisheng Lin", "Chao Wang", "Jun Zhou"],
     venue: "IEEE International Solid-State Circuits Conference (ISSCC), 2024, pp. 542–544",
     shortVenue: "ISSCC",
+    image: "images/publications/isscc-2024-seizure.webp",
     doi: "10.1109/ISSCC49657.2024.10454405"
   },
   {
@@ -248,6 +264,7 @@ window.publications = [
     authors: ["Bochang Wang", "Ziang Duan", "Zixuan Shen", "Yuansheng Zhao", "Lu Gao", "Chao Wang"],
     venue: "IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2023, pp. 118–119",
     shortVenue: "ICTA",
+    image: "images/publications/icta-2023-activation.webp",
     doi: "10.1109/ICTA60488.2023.10364285"
   },
   {
@@ -258,6 +275,7 @@ window.publications = [
     authors: ["Ziang Duan", "Ruohan Ma", "Zixuan Shen", "Zhao Ge", "Hao Wu", "Ming Tang", "Chao Wang"],
     venue: "IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), 2023, pp. 1–4",
     shortVenue: "ICTA",
+    image: "images/publications/icta-2023-dnn-accelerator.webp",
     doi: "10.1109/ICTA60488.2023.10364267"
   },
   {
@@ -268,6 +286,7 @@ window.publications = [
     authors: ["Jipeng Wang", "Jianhui Song", "Bingqiang Liu", "Zixuan Shen", "Yu Jiang", "Fengwei An", "Chao Wang", "Jiang Tang"],
     venue: "Annual Conference of the IEEE Industrial Electronics Society (IECON), 2023, pp. 1–6",
     shortVenue: "IECON",
+    image: "images/publications/iecon-2023-pedestrian.webp",
     doi: "10.1109/IECON51785.2023.10311903"
   },
   {
@@ -278,6 +297,7 @@ window.publications = [
     authors: ["Yuansheng Zhao", "Zixuan Shen", "Jiarui Xu", "Kevin C. T. Chai", "Yanqing Wu", "Chao Wang"],
     venue: "IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS), 2023, pp. 1–4",
     shortVenue: "AICAS",
+    image: "images/publications/aicas-2023-transpose-cim.webp",
     doi: "10.1109/AICAS57966.2023.10168641"
   },
   {
