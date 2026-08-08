@@ -102,48 +102,15 @@ h1 {
 
 .portrait-card { margin: 0; text-align: center; }
 
-.portrait-placeholder {
-  position: relative;
-  display: grid;
+.portrait-image {
+  display: block;
   width: 230px;
   height: 280px;
   margin: 0 auto;
-  overflow: hidden;
-  place-items: center;
   border: 1px solid #cbd9e4;
   border-radius: 4px;
-  background:
-    linear-gradient(135deg, transparent 46%, rgba(255,255,255,.38) 46% 54%, transparent 54%),
-    repeating-linear-gradient(90deg, rgba(18,105,173,.07) 0 1px, transparent 1px 23px),
-    repeating-linear-gradient(0deg, rgba(18,105,173,.07) 0 1px, transparent 1px 23px),
-    linear-gradient(145deg, #eaf4fb, #c8ddea);
-}
-
-.portrait-placeholder::before,
-.portrait-placeholder::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(18,105,173,.25);
-  border-radius: 50%;
-}
-
-.portrait-placeholder::before { width: 175px; height: 175px; }
-.portrait-placeholder::after { width: 130px; height: 130px; }
-
-.portrait-placeholder span {
-  z-index: 1;
-  color: var(--blue-dark);
-  font-size: 58px;
-  font-weight: 700;
-  letter-spacing: -.05em;
-}
-
-.portrait-card p {
-  margin: 9px 0 0;
-  color: var(--muted);
-  font-size: 12px;
-  letter-spacing: .06em;
-  text-transform: uppercase;
+  object-fit: cover;
+  object-position: 50% 35%;
 }
 
 .section {
@@ -326,7 +293,7 @@ footer p { margin: 4px 0; }
   .page-shell { width: min(calc(100% - 24px), var(--max-width)); }
   .intro { grid-template-columns: 1fr; gap: 28px; padding: 36px 8px 32px; }
   .portrait-card { order: -1; }
-  .portrait-placeholder { width: 190px; height: 220px; }
+  .portrait-image { width: 190px; height: 230px; }
   .intro-copy { text-align: left; }
   .profile-links { justify-content: flex-start; }
   .section { padding: 30px 8px; }
